@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= title %></title>
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+	<h1>Sign In</h1>
+	<%= message %>
+	<form action='/login' method='post'>
+		<p>
+			<input type='text' name='user[username]' placeholder='Username' />
+		</p>
+		<p>
+			<input type='password' name='user[password]'
+			➥ placeholder='Password' />
+		</p>
+		<p>
+			<input type='submit' value='Login' />
+		</p>
+	</form>
+</body>
+</html>

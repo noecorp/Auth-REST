@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Dev page - Generate your API key</h1>
+    <p><%= message %></p>
+    <form action='/generatekey' method='post'>
+		<p>
+			<input type='submit' value='Generate API key' />
+		</p>
+	</form>
+  </body>
+</html>
